@@ -1,0 +1,17 @@
+# les
+commandes utiles à l’utilisation de GIT.
+## différence git et github
+Git est un outil qui gère les versions d'un projet, tandis que GitHub est une plateforme en ligne qui utilise Git pour héberger et partager des projets. GitHub rend l'utilisation de Git plus accessible, notamment pour la collaboration à distance.
+## Référentiels
+- **git init** : crée un nouveau dépôt Git dans un répertoire.
+- **git init [nom du projet]** : réer un nouveau dépôt en spécifiant le nom du projet.
+- **git add fichier1.txt** : mettre en staging les modifications de fichiers, les préparant ainsi au prochain commit.
+- **git commit -m "Ajouter une nouvelle fonctionnalité"** : créer un message de validation pour les modifications.
+- **git status** : obtenir des informations précieuses sur les modifications.
+- **git log** : afficher une liste chronologique de l’historique des commits.
+- **git diff fichier1.txt** : omparer les changements entre votre répertoire de travail et le dernier commit.
+- **git diff commit1 commit2** : omparer les modifications entre deux commits.
+- **git rm fichier1.txt** : supprime des fichiers de votre répertoire de travail.
+- **git mv fichier1.txt fichier2.txt** : renommer et déplacer des fichiers dans votre répertoire de travail..
+- **git mv fichier1.txt nouveau_répertoire/** : déplacer un fichier dans un autre répertoire.
+- **git config --global user.email "votre.email@exemple.com"** : permet de configurer divers aspects de Git, y compris les informations et les préférences de l’utilisateur.
